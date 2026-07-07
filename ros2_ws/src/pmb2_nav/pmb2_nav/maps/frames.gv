@@ -1,0 +1,23 @@
+digraph G {
+"odom" -> "base_footprint"[label=" Broadcaster: default_authority\nAverage rate: 4.037\nBuffer length: 3.22\nMost recent transform: 1781804426.27733\nOldest transform: 1781804423.0571\n"];
+"base_link" -> "wheel_left_link"[label=" Broadcaster: default_authority\nAverage rate: 4.687\nBuffer length: 3.2\nMost recent transform: 1781804426.27733\nOldest transform: 1781804423.077103\n"];
+"base_footprint" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 3.774\nBuffer length: 3.18\nMost recent transform: 1781804426.778834\nOldest transform: 1781804423.598843\n"];
+"base_link" -> "wheel_right_link"[label=" Broadcaster: default_authority\nAverage rate: 4.687\nBuffer length: 3.2\nMost recent transform: 1781804426.27733\nOldest transform: 1781804423.077103\n"];
+"base_link" -> "base_antenna_left_link"[label=" Broadcaster: default_authority\nAverage rate: 3.774\nBuffer length: 3.18\nMost recent transform: 1781804426.778834\nOldest transform: 1781804423.598843\n"];
+"base_link" -> "base_antenna_right_link"[label=" Broadcaster: default_authority\nAverage rate: 3.774\nBuffer length: 3.18\nMost recent transform: 1781804426.778834\nOldest transform: 1781804423.598843\n"];
+"base_link" -> "base_imu_link"[label=" Broadcaster: default_authority\nAverage rate: 3.774\nBuffer length: 3.18\nMost recent transform: 1781804426.778834\nOldest transform: 1781804423.598843\n"];
+"base_link" -> "base_laser_link"[label=" Broadcaster: default_authority\nAverage rate: 3.774\nBuffer length: 3.18\nMost recent transform: 1781804426.778834\nOldest transform: 1781804423.598843\n"];
+"base_link" -> "caster_back_left_1_link"[label=" Broadcaster: default_authority\nAverage rate: 3.774\nBuffer length: 3.18\nMost recent transform: 1781804426.778834\nOldest transform: 1781804423.598843\n"];
+"caster_back_left_1_link" -> "caster_back_left_2_link"[label=" Broadcaster: default_authority\nAverage rate: 3.774\nBuffer length: 3.18\nMost recent transform: 1781804426.778834\nOldest transform: 1781804423.598843\n"];
+"base_link" -> "caster_back_right_1_link"[label=" Broadcaster: default_authority\nAverage rate: 3.774\nBuffer length: 3.18\nMost recent transform: 1781804426.778834\nOldest transform: 1781804423.598843\n"];
+"caster_back_right_1_link" -> "caster_back_right_2_link"[label=" Broadcaster: default_authority\nAverage rate: 3.774\nBuffer length: 3.18\nMost recent transform: 1781804426.778834\nOldest transform: 1781804423.598843\n"];
+"base_link" -> "caster_front_left_1_link"[label=" Broadcaster: default_authority\nAverage rate: 3.774\nBuffer length: 3.18\nMost recent transform: 1781804426.778834\nOldest transform: 1781804423.598843\n"];
+"caster_front_left_1_link" -> "caster_front_left_2_link"[label=" Broadcaster: default_authority\nAverage rate: 3.774\nBuffer length: 3.18\nMost recent transform: 1781804426.778834\nOldest transform: 1781804423.598843\n"];
+"base_link" -> "caster_front_right_1_link"[label=" Broadcaster: default_authority\nAverage rate: 3.774\nBuffer length: 3.18\nMost recent transform: 1781804426.778834\nOldest transform: 1781804423.598843\n"];
+"caster_front_right_1_link" -> "caster_front_right_2_link"[label=" Broadcaster: default_authority\nAverage rate: 3.774\nBuffer length: 3.18\nMost recent transform: 1781804426.778834\nOldest transform: 1781804423.598843\n"];
+"base_footprint" -> "base_cover_link"[label=" Broadcaster: default_authority\nAverage rate: 3.774\nBuffer length: 3.18\nMost recent transform: 1781804426.778834\nOldest transform: 1781804423.598843\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1781804427.275675"[ shape=plaintext ] ;
+}->"odom";
+}
